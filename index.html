@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+</head>
+
+<body>
+  
+  <input type="date" name="" id="example" max="">
+  <div class="container">
+    <h1 class="birthday">Happy Birthday</h1>
+    <div class="date-container">
+      <div class="date">
+        <label for="day">DAY</label>
+        <input id="day" class="day" type="number" placeholder="DD">
+        <span class="empty">This field is required</span>
+        <span class="incorrect">Must be a valid day</span>
+      </div>
+      <div class="date">
+        <label for="month">MONTH</label>
+        <input id="month" class="month" type="number" placeholder="MM">
+        <span class="empty">This field is required</span>
+        <span class="incorrect">Must be a valid month</span>
+      </div>
+      <div class="date">
+        <label for="year">YEAR</label>
+        <input id="year" class="year" type="number" placeholder="YYYY">
+        <span class="empty">This field is required</span>
+        <span class="incorrect">Must be a valid year</span>
+      </div>
+    </div>
+    
+    <div class="button-container">
+      <hr>
+      <img class="button" src="assets/images/icon-arrow.svg" alt="icon">
+    </div>
+    <div class="content">
+      <p><span class="content-num" id="contentYear">- -</span> years</p>
+      <p><span class="content-num" id="contentMonth">- -</span> months</p>
+      <p><span class="content-num" id="contentDay">- -</span> days</p>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">ilkerkarahan</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
